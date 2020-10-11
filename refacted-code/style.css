@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Lines 11 to 26: The semantic change <div> to header allowed replacement of .header class with header element reference. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Lines 28 to 44: Semantic change <div> to <nav> */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -86,17 +88,18 @@ figure {
     background-color: #2589bd;
 }
 
-.benefit {
+/* Reference lines 104-118 in original: Replaced three separate aside box stylers, with one class. Called it .achieve" because the small difference between .benefits and .benefit could lead to typo errors.  */
+.achieve {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.achieve h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.achieve img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
