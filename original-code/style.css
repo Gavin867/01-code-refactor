@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Lines 12 to 44: Changing the <div> elements to there semantic equivalent will allow use of element <header> reference instead of .header classes */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Line 28 to 44: This <div> should be called <nav> */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* Line 56: using <div> instead of semantic <figure> necessitates use of superfluous .hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,7 +89,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Lines 89-103 can be replaced with one class. */
+/* Lines 93 to 106: Same traits, can be replaced with one class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,7 +105,7 @@ p {
     color: #ffffff;
 }
 
-/* Lines 104 through 118 can be simplified into one h3 style tage. */
+/* Lines 108 through 122, same traits, can be simplified into one h3 style tag */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -118,6 +121,7 @@ p {
     text-align: center;
 }
 
+/* Lines 125 to 141, can be replaced with one class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -136,6 +140,7 @@ p {
     max-width: 150px;
 }
 
+/* Lines 144 to 169, can be replaced with one class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -163,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* Lines 172 to 198: Can be replaced with one class for <img> and one for <h2> */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,6 +180,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -190,6 +197,7 @@ p {
     font-size: 36px;
 }
 
+/*Line 201 to end: The use of a .footer class is superfluous and is only necessary because the original code uses css classes as css identifiers instead of css classes. In the refacted file we will see how semantic replacements give us the freedom to use classes as intended (to reference common styling amongst multiple elements) by replacing them with meaningful element tags which provide descriptive value */
 .footer {
     padding: 30px;
     clear: both;

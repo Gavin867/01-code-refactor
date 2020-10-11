@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Lines 11 to 26: The semantic change <div> to header allowed replacement of .header class with header element reference. */
+/* Lines 11 to 26: The semantic change <div> to header allowed replacement of .header class with <header> element reference */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Lines 28 to 44: Semantic change <div> to <nav> */
+/* Lines 28 to 44: Semantic change <div> to <nav>, .header to <header> element reference */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -52,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* Line 56: Changing the <div> to <figure> in html allowed for elimanation of the .hero class, replaced with <figure> element reference */
 figure {
     height: 800px;
     width: 100%;
@@ -88,7 +89,7 @@ figure {
     background-color: #2589bd;
 }
 
-/* Reference lines 104-118 in original: Replaced three separate aside box stylers, with one class. Called it .achieve" because the small difference between .benefits and .benefit could lead to typo errors.  */
+/* Lines 93 to 107: Replaced three sets of three aside box stylers, with one class for each. Called it .achieve because the small difference between .benefits and .benefit could lead to typo errors  */
 .achieve {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,6 +106,7 @@ figure {
     max-width: 150px;
 }
 
+/* Lines 109 to 126: Replaced multiple syle classes for each type of element with one class each for service, img and h2 */
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,6 +125,7 @@ figure {
     font-size: 36px;
 }
 
+/*Line 129 to end: The replacement of <div> with <footer> allowed replacement of .footer class with <footer> element reference*/
 footer {
     padding: 30px;
     clear: both;
