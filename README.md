@@ -12,7 +12,7 @@ For reference and comparison, the **original-code** folder contains the original
  
  * Comments have been added in original-style.css to identifiy and discuss inefficiencies in the code
 
-The root of the **code-refactor** repository contains the refacted code (via the refactored-index.html and refactored-style.css files) which have minor semantic, content, and css changes from the original for better accessibility and cleanliness. These changes include the following:
+The **index.html** and **style.css** files in the root of this directory contain the refacted code which have minor semantic, content, and css changes from the original for better accessibility and cleanliness. These changes include the following:
 
 * Replacement of the 'div' tags with appropriate semantic tags
 * Use of alt="" to provide descriptions of images
@@ -23,4 +23,4 @@ The root of the **code-refactor** repository contains the refacted code (via the
 
 <h2>A Takeaway...</h2>
 
-One conclusion that can be drawn from this exercise is that semantic html elements allow for easier styling in CSS. By eliminating he non-descriptive 'div' elements where possible, we increase our ability to make direct references to more unique parent and child elements in our CSS rather than resorting to wanton class creation for every new section of styling -as was the case in the original-code folder. This in turn allows us to create fewer css styling classes which function truer to their intended purpose: to provide basline styling for multiple elements. 
+One conclusion that can be drawn from this exercise is that semantic html elements allow for easier styling in CSS. By eliminating he non-descriptive 'div' elements where possible, we increase our ability to make direct references to more unique parent and child elements in our CSS rather than resorting to wanton class creation for every new section of styling, as was the case in the original-code folder. This in turn allows us to create fewer css styling classes which function truer to their intended purpose -to provide basline styling for multiple elements. 
