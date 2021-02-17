@@ -1,11 +1,11 @@
-# code-refactor
+# Code Refactor
 
 <h2>AKA: The Horiseon Code Refactor Exercise</h2>
 
 ## Project Location
 
-* [GitHub Repo](https://github.com/Gavin867/01-code-refactor)
-* [Published Site](https://gavin867.github.io/01-code-refactor/)
+* [GitHub Repo](https://github.com/Gavin867/Code_Refactor)
+* [Published Site](https://gavin867.github.io/Code_Refactor/)
 
 ## Project Description
 
